@@ -14,7 +14,8 @@ function App() {
         <Router>
             <div>
                 <Navbar />
-                <header className="py-5 bg-image-full" style={{ "background-image: url('assets/maui2.jpeg');"}} >
+                {/* <header className="py-5 bg-image-full" style={{ "background-image: url('assets/maui2.jpeg')"}} >
+                    <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }} />
                     <img class="img-fluid d-block mx-auto" src="assets/Portfolio Headshot.jpg" alt="Headshot" style={{ "width:250px, height:250px"}} />
                 </header>
 
@@ -38,7 +39,7 @@ function App() {
 
                 <div class="py-5 bg-image-full" style="background-image: url('assets/IMG_4019.jpg');">
                     <div style="height: 200px;"></div>
-                </div>
+                </div> */}
                 <Route exact path="/about">
                     <About />
                 </Route>
