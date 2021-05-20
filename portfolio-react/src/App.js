@@ -14,8 +14,8 @@ function App() {
         <Router>
             <div>
                 <Navbar />
-                <header className="py-5 bg-image-full" style={"background-image: url('assets/maui2.jpeg');"} >
-                    <img class="img-fluid d-block mx-auto" src="assets/Portfolio Headshot.jpg" alt="Headshot" style="width:250px, height:250px" />
+                <header className="py-5 bg-image-full" style={{ "background-image: url('assets/maui2.jpeg');"}} >
+                    <img class="img-fluid d-block mx-auto" src="assets/Portfolio Headshot.jpg" alt="Headshot" style={{ "width:250px, height:250px"}} />
                 </header>
 
                 <section class="py-5">
