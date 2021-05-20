@@ -1,6 +1,7 @@
 # portfolio-react
 
 Professional README.md
+portfolio-react\src\assets\Capture.PNG
 
 ## Description
 
@@ -39,3 +40,7 @@ Any questions?
 What is your GitHub username? @Ryansswell
 
 What is the name of your project? React Portfolio
+
+![Image](PortfolioPic.png)
+
+![alt img](portfolio-react\src\assets\PortfolioPic.jpg)
