@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 
 
-function resume(props) {
-    return
-}
+// function resume(props) {
+//     return
+// }
 
-export default resume;
+// export default resume;

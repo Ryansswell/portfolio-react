@@ -1,41 +1,37 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-// function Navbar(props) {
-const Navbar = props => {
-    console.log(props);
+function Navbar() {
     return (
-        <nav>
-            <nav className="navbar navbar-light bg-light">
-                <a className="navbar-brand" href="https://www.ebay.com/b/Milton-Bradley-Memory-Board-Traditional-Games/2550/bn_1914568">
-                    <img src="./Memory1980.jpg" alt="Classic Memory Game circa 1980" />
-                </a>
-                <span className="navbar-text">
-                    <div className="card-body">
-                        <h2>Ryan Anderson</h2>
-                    </div>
-                </span>
-                <form className="form-inline">
-                    <input
-                        onChange={props.x}
-                        value={props.value}
-                        name="search"
-                        type="search"
-                        className="form-control mr-sm-2"
-                        id="search"
-                        aria-label="Search"
-                        placeholder="Giphy Topic Search" />
-                    <button onClick={props.y} class="btn btn-outline-success my-2 my-sm-0" type="submit">About</button>
-                </form>
-            </nav>
-            <nav className="navbar navbar-light bg-light align-center">
-                <span className="navbar-text ">
-                    <div className="card-body d-flex ">
-                        <h1 className="card-text">LinkedIn</h1>
-                    </div>
-                </span>
-            </nav>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">Ryan Anderson</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about" target="">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <Link className="nav-link" to="https://www.linkedin.com/in/ryan-anderson-52842784/">
+                                LinkedIn
+            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Ryansswell" target="_blank">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Resume.pdf" target="_blank">Portfolio/Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav >
     );
 }
+
 
 export default Navbar;
